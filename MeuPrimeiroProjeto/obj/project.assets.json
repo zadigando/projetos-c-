@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\prog\\MeuPrimeiroProjeto\\MeuPrimeiroProjeto.csproj",
+      "projectUniqueName": "D:\\prog\\projetos-c#\\MeuPrimeiroProjeto\\MeuPrimeiroProjeto.csproj",
       "projectName": "MeuPrimeiroProjeto",
-      "projectPath": "D:\\prog\\MeuPrimeiroProjeto\\MeuPrimeiroProjeto.csproj",
+      "projectPath": "D:\\prog\\projetos-c#\\MeuPrimeiroProjeto\\MeuPrimeiroProjeto.csproj",
       "packagesPath": "C:\\Users\\zadig\\.nuget\\packages\\",
-      "outputPath": "D:\\prog\\MeuPrimeiroProjeto\\obj\\",
+      "outputPath": "D:\\prog\\projetos-c#\\MeuPrimeiroProjeto\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\zadig\\AppData\\Roaming\\NuGet\\NuGet.Config"
