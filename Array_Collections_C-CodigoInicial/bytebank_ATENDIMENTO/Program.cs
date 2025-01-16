@@ -50,3 +50,65 @@ void BuscaPalavra()
 }
 
 //BuscaPalavra();
+
+Array amostra = Array.CreateInstance(typeof(double), 5);
+amostra.SetValue(4.3, 0);
+amostra.SetValue(3.7, 1);
+amostra.SetValue(5.1, 2);
+amostra.SetValue(4.8, 3);
+amostra.SetValue(3.9, 4);
+
+void TestaMediana(Array array)
+{
+    if(( array == null ) || (array.Length == 0 ))
+    {
+        Console.WriteLine("Ta vazio ou nulo");
+        return;
+    }
+    else
+    {
+        double[] arrayOrdenado = (double[])array.Clone();
+        Array.Sort(arrayOrdenado);
+
+        int tamanho = arrayOrdenado.Length;
+        int meio = tamanho / 2;
+
+        double mediana = (tamanho % 2 != 0) ? arrayOrdenado[meio] : (arrayOrdenado[meio] + arrayOrdenado[meio-1])/2;
+        Console.WriteLine($"Entao vai tomando a mediana: {mediana}");
+    }
+}
+
+//TestaMediana(amostra);
+
+double[] amostraD = new double[5];
+amostraD.SetValue(4.3, 0);
+amostraD.SetValue(3.7, 1);
+amostraD.SetValue(5.1, 2);
+amostraD.SetValue(4.8, 3);
+amostraD.SetValue(3.9, 4);
+
+void AcharMedia(double[] amostra)
+{
+    double acumuladorNumeros = 0;
+    double qtdVet = 0;
+    double media = 0;
+    if(( amostra == null ) || (amostra.Length == 0 ))
+    {
+        Console.WriteLine("bagui nao serve"); 
+        return;
+    }
+    else
+    {
+        for (int i = 0; i < amostra.Length; i++)
+        {
+            acumuladorNumeros = acumuladorNumeros + amostra[i];
+            qtdVet++;
+        }
+    }
+
+    media = (acumuladorNumeros / qtdVet);
+
+    Console.WriteLine($"A media e {media}");
+}
+
+AcharMedia(amostraD);
