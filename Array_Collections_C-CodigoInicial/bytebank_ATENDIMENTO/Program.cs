@@ -2,98 +2,51 @@
 
 
 
-void TestaArrayInt()
+void TestaArray()
 {
     int[] idades = new int[5];
     idades[0] = 30;
-    idades[1] = 40;
-    idades[2] = 17;
-    idades[3] = 21;
-    idades[4] = 18;
+    idades[1] = 20;
+    idades[2] = 42;
+    idades[3] = 70;
+    idades[4] = 20;
 
-    Console.WriteLine($"Tamanho do Array {idades.Length}");
+    Console.WriteLine($"Tamanho do Array: {idades.Length}");
 
-    int acumlador = 0;
-    for( int i = 0; i < idades.Length; i++ )
+    int acumulador = 0;
+    for ( int i = 0; i < idades.Length; i++ )
     {
-        int idade =  idades[i];
-        Console.WriteLine($"indice [{i}] = {idades[i]}");
-        acumlador += idades[i];
+        int idade = idades[i];
+        Console.WriteLine($"Na posicao {i} temos o valor {idade}");
+        acumulador+= idade;
     }
-
-    int media = acumlador / idades.Length;
-    Console.WriteLine($"Media de idades = {media}");
-
+    int media = acumulador/idades.Length;
+    Console.WriteLine($"A media do vetor Idades e de: {media}");
 }
 
+//TestaArray();
 
-void TestaBuscaPalavra()
+void BuscaPalavra()
 {
-    string[] arraydePalavras = new string[5];
+    string[] conjuntoPalavras = new string[5];
 
-    for( int i = 0;i < arraydePalavras.Length;i++)
+    for ( int i = 0; i < conjuntoPalavras.Length; i++ )
     {
-        Console.Write($"Digite a {i + 1} Palavra: ");
-        arraydePalavras[i] = Console.ReadLine();
+        Console.Write($"Digite a palavra numero {i}");
+        var palavra = Console.ReadLine();
+        conjuntoPalavras[i] = palavra;
     }
 
-    Console.Write("Digite a palavra a ser encontrada: ");
+    Console.WriteLine("Digite a palavra que deseja buscar");
     var busca = Console.ReadLine();
 
-    foreach(string palavra in arraydePalavras)
+    foreach (string palavra in conjuntoPalavras)
     {
-        if (palavra.Equals(busca))
+        if(palavra.Equals(busca))
         {
-            Console.WriteLine($"Palavra encontrada = {busca}");
-        }
-    }
-
-}
-
-void BuscarPalavra()
-{
-    string[] strings = new string[5];
-    
-    for ( int i = 0; i < strings.Length; i++ )
-    {
-        Console.Write($"Insira a palavra na posicao {i}: ");
-        strings[i] = Console.ReadLine();
-    }
-
-    Console.Write($"Insira a palavra a ser buscada: ");
-    string user = Console.ReadLine();
-
-    foreach(string palavra in strings)
-    {
-        if(palavra.Equals(user))
-        {
-            Console.WriteLine($"Achou! A Palavra e: {palavra}");
+            Console.WriteLine($"Palavra encontrada! Sua palavra e: {busca}");
         }
     }
 }
 
-Array amostra = Array.CreateInstance(typeof(double), 5);
-amostra.SetValue(5.9, 0);
-amostra.SetValue(1.8, 1);
-amostra.SetValue(7.1, 2);
-amostra.SetValue(10, 3);
-amostra.SetValue(6.9, 4);
-
-TestaMediana(amostra);
-void TestaMediana(Array array)
-{
-    if ((array == null) || (array.Length == 0))
-    {
-        Console.WriteLine("Bagulho ta vazio fiao");
-    }
-
-    double[] numerosOrdenados = (double[])array.Clone();
-    Array.Sort(numerosOrdenados);
-
-    int tamanho = numerosOrdenados.Length;
-    int meio = tamanho / 2;
-    double mediana = (tamanho % 2 != 0) ? numerosOrdenados[meio] : 
-                                        (numerosOrdenados[meio] + numerosOrdenados[meio-1]) / 2;
-    Console.WriteLine($"Segue a mediana = {mediana}");
-
-}
+//BuscaPalavra();
