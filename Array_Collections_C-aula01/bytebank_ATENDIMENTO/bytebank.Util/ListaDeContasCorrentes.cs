@@ -89,6 +89,32 @@ namespace bytebank_ATENDIMENTO.bytebank.Util
                 }
             }
         }
+
+        public ContaCorrente RecuperarItemIndice(int indice)
+        {
+            if (indice < 0 || indice >= _proximoItem)
+            {
+                throw new ArgumentOutOfRangeException(nameof(indice));
+            }
+
+            return _itens[indice];
+        }
+
+        public int Tamanho
+        {
+            get
+            {
+                return _proximoItem;
+            }
+        }
+
+        public ContaCorrente this[int indice]
+        {
+            get
+            {
+                return RecuperarItemIndice(indice);
+            }
+        }
     }
 
 }
