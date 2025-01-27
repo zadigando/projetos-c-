@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "u9A8o0N4Hgo=",
+  "dgSpecHash": "9xOZ11sNAQQ=",
   "success": true,
-  "projectFilePath": "C:\\prog-z\\projetos-c-\\CsharpArquivos\\ByteBankIO\\ByteBankIO.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\zadig\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.36\\microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512",
-    "C:\\Users\\zadig\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.36\\microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
-    "C:\\Users\\zadig\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.36\\microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512",
-    "C:\\Users\\zadig\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.36\\microsoft.netcore.app.host.win-x64.6.0.36.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\prog-z\\projetos-c-\\trabalhandoComArquivosC#\\ByteBankIO\\ByteBankIO.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

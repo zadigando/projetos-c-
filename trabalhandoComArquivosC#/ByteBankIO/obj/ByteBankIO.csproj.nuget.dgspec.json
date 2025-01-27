@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\prog-z\\projetos-c-\\CsharpArquivos\\ByteBankIO\\ByteBankIO.csproj": {}
+    "C:\\prog-z\\projetos-c-\\trabalhandoComArquivosC#\\ByteBankIO\\ByteBankIO.csproj": {}
   },
   "projects": {
-    "C:\\prog-z\\projetos-c-\\CsharpArquivos\\ByteBankIO\\ByteBankIO.csproj": {
+    "C:\\prog-z\\projetos-c-\\trabalhandoComArquivosC#\\ByteBankIO\\ByteBankIO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\prog-z\\projetos-c-\\CsharpArquivos\\ByteBankIO\\ByteBankIO.csproj",
+        "projectUniqueName": "C:\\prog-z\\projetos-c-\\trabalhandoComArquivosC#\\ByteBankIO\\ByteBankIO.csproj",
         "projectName": "ByteBankIO",
-        "projectPath": "C:\\prog-z\\projetos-c-\\CsharpArquivos\\ByteBankIO\\ByteBankIO.csproj",
+        "projectPath": "C:\\prog-z\\projetos-c-\\trabalhandoComArquivosC#\\ByteBankIO\\ByteBankIO.csproj",
         "packagesPath": "C:\\Users\\zadig\\.nuget\\packages\\",
-        "outputPath": "C:\\prog-z\\projetos-c-\\CsharpArquivos\\ByteBankIO\\obj\\",
+        "outputPath": "C:\\prog-z\\projetos-c-\\trabalhandoComArquivosC#\\ByteBankIO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -60,24 +60,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.36, 6.0.36]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[6.0.36, 6.0.36]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.36, 6.0.36]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.36, 6.0.36]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"

@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\prog-z\\projetos-c-\\trabalhandoComArquivosC#\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4A2CBB11-6757-43A8-BB4C-2A1345845777}|ByteBankIO\\ByteBankIO.csproj|c:\\prog-z\\projetos-c-\\trabalhandocomarquivosc#\\bytebankio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A2CBB11-6757-43A8-BB4C-2A1345845777}|ByteBankIO\\ByteBankIO.csproj|solutionrelative:bytebankio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A2CBB11-6757-43A8-BB4C-2A1345845777}|ByteBankIO\\ByteBankIO.csproj|c:\\prog-z\\projetos-c-\\trabalhandocomarquivosc#\\bytebankio\\1_lidandocomfilesstreamdiretamente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A2CBB11-6757-43A8-BB4C-2A1345845777}|ByteBankIO\\ByteBankIO.csproj|solutionrelative:bytebankio\\1_lidandocomfilesstreamdiretamente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "1_LidandoComFilesStreamDiretamente.cs",
+              "DocumentMoniker": "C:\\prog-z\\projetos-c-\\trabalhandoComArquivosC#\\ByteBankIO\\1_LidandoComFilesStreamDiretamente.cs",
+              "RelativeDocumentMoniker": "ByteBankIO\\1_LidandoComFilesStreamDiretamente.cs",
+              "ToolTip": "C:\\prog-z\\projetos-c-\\trabalhandoComArquivosC#\\ByteBankIO\\1_LidandoComFilesStreamDiretamente.cs",
+              "RelativeToolTip": "ByteBankIO\\1_LidandoComFilesStreamDiretamente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T16:01:02.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\prog-z\\projetos-c-\\trabalhandoComArquivosC#\\ByteBankIO\\Program.cs",
+              "RelativeDocumentMoniker": "ByteBankIO\\Program.cs",
+              "ToolTip": "C:\\prog-z\\projetos-c-\\trabalhandoComArquivosC#\\ByteBankIO\\Program.cs",
+              "RelativeToolTip": "ByteBankIO\\Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwA0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T15:42:20.517Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
