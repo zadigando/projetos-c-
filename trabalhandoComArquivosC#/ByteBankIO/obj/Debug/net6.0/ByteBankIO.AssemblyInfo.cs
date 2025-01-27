@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ByteBankIO")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3a205b1a3b563a74c3c1ae7aad7f949424d4c425")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a28f19c32dd3a7bdbb6ed3e3d1fec4254c0b4edb")]
 [assembly: System.Reflection.AssemblyProductAttribute("ByteBankIO")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ByteBankIO")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
