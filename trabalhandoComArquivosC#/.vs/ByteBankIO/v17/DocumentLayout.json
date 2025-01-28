@@ -7,16 +7,20 @@
       "RelativeMoniker": "D:0:0:{4A2CBB11-6757-43A8-BB4C-2A1345845777}|ByteBankIO\\ByteBankIO.csproj|solutionrelative:bytebankio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A2CBB11-6757-43A8-BB4C-2A1345845777}|ByteBankIO\\ByteBankIO.csproj|c:\\prog-z\\projetos-c-\\trabalhandocomarquivosc#\\bytebankio\\3_criandoarquivos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A2CBB11-6757-43A8-BB4C-2A1345845777}|ByteBankIO\\ByteBankIO.csproj|solutionrelative:bytebankio\\3_criandoarquivos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A2CBB11-6757-43A8-BB4C-2A1345845777}|ByteBankIO\\ByteBankIO.csproj|c:\\prog-z\\projetos-c-\\trabalhandocomarquivosc#\\bytebankio\\4_streambinario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A2CBB11-6757-43A8-BB4C-2A1345845777}|ByteBankIO\\ByteBankIO.csproj|solutionrelative:bytebankio\\4_streambinario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A2CBB11-6757-43A8-BB4C-2A1345845777}|ByteBankIO\\ByteBankIO.csproj|c:\\prog-z\\projetos-c-\\trabalhandocomarquivosc#\\bytebankio\\1_lidandocomfilesstreamdiretamente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A2CBB11-6757-43A8-BB4C-2A1345845777}|ByteBankIO\\ByteBankIO.csproj|solutionrelative:bytebankio\\1_lidandocomfilesstreamdiretamente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4A2CBB11-6757-43A8-BB4C-2A1345845777}|ByteBankIO\\ByteBankIO.csproj|c:\\prog-z\\projetos-c-\\trabalhandocomarquivosc#\\bytebankio\\2_usandostreamreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A2CBB11-6757-43A8-BB4C-2A1345845777}|ByteBankIO\\ByteBankIO.csproj|solutionrelative:bytebankio\\2_usandostreamreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A2CBB11-6757-43A8-BB4C-2A1345845777}|ByteBankIO\\ByteBankIO.csproj|c:\\prog-z\\projetos-c-\\trabalhandocomarquivosc#\\bytebankio\\1_lidandocomfilesstreamdiretamente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A2CBB11-6757-43A8-BB4C-2A1345845777}|ByteBankIO\\ByteBankIO.csproj|solutionrelative:bytebankio\\1_lidandocomfilesstreamdiretamente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A2CBB11-6757-43A8-BB4C-2A1345845777}|ByteBankIO\\ByteBankIO.csproj|c:\\prog-z\\projetos-c-\\trabalhandocomarquivosc#\\bytebankio\\3_criandoarquivos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A2CBB11-6757-43A8-BB4C-2A1345845777}|ByteBankIO\\ByteBankIO.csproj|solutionrelative:bytebankio\\3_criandoarquivos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,24 +30,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "4_StreamBinario.cs",
+              "DocumentMoniker": "C:\\prog-z\\projetos-c-\\trabalhandoComArquivosC#\\ByteBankIO\\4_StreamBinario.cs",
+              "RelativeDocumentMoniker": "ByteBankIO\\4_StreamBinario.cs",
+              "ToolTip": "C:\\prog-z\\projetos-c-\\trabalhandoComArquivosC#\\ByteBankIO\\4_StreamBinario.cs",
+              "RelativeToolTip": "ByteBankIO\\4_StreamBinario.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAqwBEAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T18:43:59.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "3_CriandoArquivos.cs",
               "DocumentMoniker": "C:\\prog-z\\projetos-c-\\trabalhandoComArquivosC#\\ByteBankIO\\3_CriandoArquivos.cs",
               "RelativeDocumentMoniker": "ByteBankIO\\3_CriandoArquivos.cs",
               "ToolTip": "C:\\prog-z\\projetos-c-\\trabalhandoComArquivosC#\\ByteBankIO\\3_CriandoArquivos.cs",
               "RelativeToolTip": "ByteBankIO\\3_CriandoArquivos.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBYAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAqwBYAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-27T21:06:46.074Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "2_UsandoStreamReader.cs",
               "DocumentMoniker": "C:\\prog-z\\projetos-c-\\trabalhandoComArquivosC#\\ByteBankIO\\2_UsandoStreamReader.cs",
               "RelativeDocumentMoniker": "ByteBankIO\\2_UsandoStreamReader.cs",
@@ -51,11 +68,12 @@
               "RelativeToolTip": "ByteBankIO\\2_UsandoStreamReader.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T21:07:39.485Z"
+              "WhenOpened": "2025-01-27T21:07:39.485Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "1_LidandoComFilesStreamDiretamente.cs",
               "DocumentMoniker": "C:\\prog-z\\projetos-c-\\trabalhandoComArquivosC#\\ByteBankIO\\1_LidandoComFilesStreamDiretamente.cs",
               "RelativeDocumentMoniker": "ByteBankIO\\1_LidandoComFilesStreamDiretamente.cs",
@@ -63,7 +81,8 @@
               "RelativeToolTip": "ByteBankIO\\1_LidandoComFilesStreamDiretamente.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T16:01:02.489Z"
+              "WhenOpened": "2025-01-27T16:01:02.489Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -73,7 +92,7 @@
               "RelativeDocumentMoniker": "ByteBankIO\\Program.cs",
               "ToolTip": "C:\\prog-z\\projetos-c-\\trabalhandoComArquivosC#\\ByteBankIO\\Program.cs",
               "RelativeToolTip": "ByteBankIO\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-27T15:42:20.517Z",
               "EditorCaption": ""
