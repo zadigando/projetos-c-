@@ -1,0 +1,13 @@
+C:\prog-z\projetos-c-\bytebank_ExportarDados\bytebank_ExportarDados\bin\Debug\net6.0\bytebank_ExportarDados.deps.json
+C:\prog-z\projetos-c-\bytebank_ExportarDados\bytebank_ExportarDados\bin\Debug\net6.0\bytebank_ExportarDados.dll
+C:\prog-z\projetos-c-\bytebank_ExportarDados\bytebank_ExportarDados\bin\Debug\net6.0\bytebank_ExportarDados.pdb
+C:\prog-z\projetos-c-\bytebank_ExportarDados\bytebank_ExportarDados\obj\Debug\net6.0\bytebank_ExportarDados.csproj.AssemblyReference.cache
+C:\prog-z\projetos-c-\bytebank_ExportarDados\bytebank_ExportarDados\obj\Debug\net6.0\bytebank_ExportarDados.GeneratedMSBuildEditorConfig.editorconfig
+C:\prog-z\projetos-c-\bytebank_ExportarDados\bytebank_ExportarDados\obj\Debug\net6.0\bytebank_ExportarDados.AssemblyInfoInputs.cache
+C:\prog-z\projetos-c-\bytebank_ExportarDados\bytebank_ExportarDados\obj\Debug\net6.0\bytebank_ExportarDados.AssemblyInfo.cs
+C:\prog-z\projetos-c-\bytebank_ExportarDados\bytebank_ExportarDados\obj\Debug\net6.0\bytebank_ExportarDados.csproj.CoreCompileInputs.cache
+C:\prog-z\projetos-c-\bytebank_ExportarDados\bytebank_ExportarDados\obj\Debug\net6.0\bytebank_ExportarDados.sourcelink.json
+C:\prog-z\projetos-c-\bytebank_ExportarDados\bytebank_ExportarDados\obj\Debug\net6.0\bytebank_ExportarDados.dll
+C:\prog-z\projetos-c-\bytebank_ExportarDados\bytebank_ExportarDados\obj\Debug\net6.0\refint\bytebank_ExportarDados.dll
+C:\prog-z\projetos-c-\bytebank_ExportarDados\bytebank_ExportarDados\obj\Debug\net6.0\bytebank_ExportarDados.pdb
+C:\prog-z\projetos-c-\bytebank_ExportarDados\bytebank_ExportarDados\obj\Debug\net6.0\ref\bytebank_ExportarDados.dll

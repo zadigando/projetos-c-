@@ -1,6 +1,8 @@
 ﻿using bytebank.Modelos.Conta;
 using bytebank_ATENDIMENTO.bytebank.Exceptions;
 using Newtonsoft.Json;
+using System.Xml;
+using System.Xml.Serialization;
 
 namespace bytebank_ATENDIMENTO.bytebank.Atendimento
 {
@@ -20,7 +22,7 @@ namespace bytebank_ATENDIMENTO.bytebank.Atendimento
             try
             {
                 char opcao = '0';
-                while (opcao != '7')
+                while (opcao != '8')
                 {
                     Console.Clear();
                     Console.WriteLine("===============================");
@@ -31,7 +33,8 @@ namespace bytebank_ATENDIMENTO.bytebank.Atendimento
                     Console.WriteLine("===4 - Ordenar Contas       ===");
                     Console.WriteLine("===5 - Pesquisar Conta      ===");
                     Console.WriteLine("===6 - Exportar Contas      ===");
-                    Console.WriteLine("===7 - Sair do Sistema      ===");
+                    Console.WriteLine("===7 - Exportar em XML      ===");
+                    Console.WriteLine("===8 - Sair do Sistema      ===");
                     Console.WriteLine("===============================");
                     Console.WriteLine("\n\n");
                     Console.Write("Digite a opção desejada: ");
@@ -65,6 +68,9 @@ namespace bytebank_ATENDIMENTO.bytebank.Atendimento
                             ExportarContas();
                             break;
                         case '7':
+                            ExportarContasEmXML();
+                            break;
+                        case '8':
                             EncerrarAplicacao();
                             break;
                         default:
@@ -76,6 +82,43 @@ namespace bytebank_ATENDIMENTO.bytebank.Atendimento
             catch (ByteBankException excecao)
             {
                 Console.WriteLine($"{excecao.Message}");
+            }
+        }
+
+        private void ExportarContasEmXML()
+        {
+            Console.Clear();
+            Console.WriteLine("===============================");
+            Console.WriteLine("===     EXPORTAR CONTAS XML ===");
+            Console.WriteLine("===============================");
+            Console.WriteLine("\n");
+
+            if (_listaDeContas.Count <= 0)
+            {
+                Console.WriteLine("... Não existe dados para exportação...");
+                Console.ReadKey();
+            }
+            else
+            {
+                //Serializar para XML
+                var contasXML = new XmlSerializer(typeof(List<ContaCorrente>));
+
+                try
+                {
+                    FileStream fs = new FileStream(@"C:\prog-z\projetos-c-\curso_bibliotecas-Aula01\export\contas.xml", FileMode.Create);
+                    using (StreamWriter streamwriter = new StreamWriter(fs))
+                    {
+                        contasXML.Serialize(streamwriter, _listaDeContas);
+                    }
+                    Console.WriteLine(@"Arquivo salvo em C:\prog-z\projetos-c-\curso_bibliotecas-Aula01\export");
+                    Console.ReadKey();
+                }
+                catch (Exception excecao)
+                {
+                    throw new ByteBankException(excecao.Message);
+                    Console.ReadKey();
+                }
+
             }
         }
 
@@ -94,21 +137,20 @@ namespace bytebank_ATENDIMENTO.bytebank.Atendimento
             }
             else
             {
-                string json = JsonConvert.SerializeObject(_listaDeContas,
-                    Formatting.Indented);
+                string json = JsonConvert.SerializeObject(_listaDeContas, Newtonsoft.Json.Formatting.Indented);
                 try
                 {
-                    FileStream fs = new FileStream(@"c:\tmp\export\contas.json", 
-                        FileMode.Create);
-                    using (StreamWriter streamwriter = new StreamWriter(fs))
+                    FileStream fs = new FileStream(@"C:\prog-z\projetos-c-\curso_bibliotecas-Aula01\export\contas.json", FileMode.Create);
+                    using (StreamWriter streamWriter = new StreamWriter(fs))
                     {
-                        streamwriter.WriteLine(json);
+                        streamWriter.WriteLine(json);
                     }
-                    Console.WriteLine(@"Arquivo salvo em c:\tmp\export\");
+                    Console.WriteLine(@"Arquivo salvo em C:\prog-z\projetos-c-\curso_bibliotecas-Aula01\export\contas.json");
                     Console.ReadKey();
                 }
                 catch (Exception excecao)
                 {
+
                     throw new ByteBankException(excecao.Message);
                     Console.ReadKey();
                 }
